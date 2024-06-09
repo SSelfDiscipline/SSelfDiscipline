@@ -1,0 +1,19 @@
+<annotation>
+   <path>./data\Town03\rgb0\675.jpg</path>
+   <bbox_num>1</bbox_num>
+   <size>
+       <width>1080</width>
+       <height>1080</height>
+       <depth>3</depth>
+   </size>
+   <object>
+       <name>Roadline</name>
+       <label_id>4</label_id>
+       <bndbox>
+           <xmin>63</xmin>
+           <ymin>704</ymin>
+           <xmax>403</xmax>
+           <ymax>1080</ymax>
+       </bndbox>
+   </object>
+</annotation>

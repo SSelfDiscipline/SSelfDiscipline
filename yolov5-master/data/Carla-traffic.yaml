@@ -1,0 +1,22 @@
+# 数据集文件参数
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ../data                         # 子目录为城镇，再子目录为传感器，rgb下是图片数据
+# 数据路径的txt，label的话将split替换为yololabel
+train: ../split/train.txt 
+val: ../split/test.txt 
+test: # test images (optional)
+
+
+
+
+
+
+# Classes
+names:
+  0: TrafficLight
+  1: TrafficSign
+  2: Vehicle
+  3: Rider
+  4: Roadline
+

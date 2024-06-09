@@ -1,0 +1,29 @@
+<annotation>
+   <path>./data\Town01\rgb0\434.jpg</path>
+   <bbox_num>2</bbox_num>
+   <size>
+       <width>1080</width>
+       <height>1080</height>
+       <depth>3</depth>
+   </size>
+   <object>
+       <name>Vehicle</name>
+       <label_id>2</label_id>
+       <bndbox>
+           <xmin>509</xmin>
+           <ymin>555</ymin>
+           <xmax>571</xmax>
+           <ymax>597</ymax>
+       </bndbox>
+   </object>
+   <object>
+       <name>Vehicle</name>
+       <label_id>2</label_id>
+       <bndbox>
+           <xmin>369</xmin>
+           <ymin>553</ymin>
+           <xmax>449</xmax>
+           <ymax>603</ymax>
+       </bndbox>
+   </object>
+</annotation>

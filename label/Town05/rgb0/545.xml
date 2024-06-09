@@ -1,0 +1,29 @@
+<annotation>
+   <path>./data\Town05\rgb0\545.jpg</path>
+   <bbox_num>2</bbox_num>
+   <size>
+       <width>1080</width>
+       <height>1080</height>
+       <depth>3</depth>
+   </size>
+   <object>
+       <name>TrafficLight</name>
+       <label_id>0</label_id>
+       <bndbox>
+           <xmin>137</xmin>
+           <ymin>397</ymin>
+           <xmax>149</xmax>
+           <ymax>423</ymax>
+       </bndbox>
+   </object>
+   <object>
+       <name>TrafficLight</name>
+       <label_id>0</label_id>
+       <bndbox>
+           <xmin>65</xmin>
+           <ymin>371</ymin>
+           <xmax>81</xmax>
+           <ymax>403</ymax>
+       </bndbox>
+   </object>
+</annotation>

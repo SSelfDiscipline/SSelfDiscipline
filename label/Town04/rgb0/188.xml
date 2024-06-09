@@ -1,0 +1,29 @@
+<annotation>
+   <path>./data\Town04\rgb0\188.jpg</path>
+   <bbox_num>2</bbox_num>
+   <size>
+       <width>1080</width>
+       <height>1080</height>
+       <depth>3</depth>
+   </size>
+   <object>
+       <name>TrafficLight</name>
+       <label_id>0</label_id>
+       <bndbox>
+           <xmin>517</xmin>
+           <ymin>339</ymin>
+           <xmax>525</xmax>
+           <ymax>377</ymax>
+       </bndbox>
+   </object>
+   <object>
+       <name>Roadline</name>
+       <label_id>4</label_id>
+       <bndbox>
+           <xmin>995</xmin>
+           <ymin>733</ymin>
+           <xmax>1080</xmax>
+           <ymax>749</ymax>
+       </bndbox>
+   </object>
+</annotation>

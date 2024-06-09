@@ -1,0 +1,19 @@
+<annotation>
+   <path>./data\Town02\rgb0\988.jpg</path>
+   <bbox_num>1</bbox_num>
+   <size>
+       <width>1080</width>
+       <height>1080</height>
+       <depth>3</depth>
+   </size>
+   <object>
+       <name>TrafficLight</name>
+       <label_id>0</label_id>
+       <bndbox>
+           <xmin>1039</xmin>
+           <ymin>479</ymin>
+           <xmax>1059</xmax>
+           <ymax>538</ymax>
+       </bndbox>
+   </object>
+</annotation>

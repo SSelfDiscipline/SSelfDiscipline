@@ -1,0 +1,29 @@
+<annotation>
+   <path>./data\Town01\rgb0\81.jpg</path>
+   <bbox_num>2</bbox_num>
+   <size>
+       <width>1080</width>
+       <height>1080</height>
+       <depth>3</depth>
+   </size>
+   <object>
+       <name>TrafficSign</name>
+       <label_id>1</label_id>
+       <bndbox>
+           <xmin>271</xmin>
+           <ymin>527</ymin>
+           <xmax>281</xmax>
+           <ymax>551</ymax>
+       </bndbox>
+   </object>
+   <object>
+       <name>TrafficSign</name>
+       <label_id>1</label_id>
+       <bndbox>
+           <xmin>255</xmin>
+           <ymin>527</ymin>
+           <xmax>263</xmax>
+           <ymax>549</ymax>
+       </bndbox>
+   </object>
+</annotation>

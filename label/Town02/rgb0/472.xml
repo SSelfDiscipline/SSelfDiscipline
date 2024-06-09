@@ -1,0 +1,29 @@
+<annotation>
+   <path>./data\Town02\rgb0\472.jpg</path>
+   <bbox_num>2</bbox_num>
+   <size>
+       <width>1080</width>
+       <height>1080</height>
+       <depth>3</depth>
+   </size>
+   <object>
+       <name>Vehicle</name>
+       <label_id>2</label_id>
+       <bndbox>
+           <xmin>635</xmin>
+           <ymin>545</ymin>
+           <xmax>669</xmax>
+           <ymax>573</ymax>
+       </bndbox>
+   </object>
+   <object>
+       <name>Roadline</name>
+       <label_id>4</label_id>
+       <bndbox>
+           <xmin>404</xmin>
+           <ymin>685</ymin>
+           <xmax>503</xmax>
+           <ymax>781</ymax>
+       </bndbox>
+   </object>
+</annotation>
