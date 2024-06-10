@@ -12,6 +12,9 @@
 - yolov5master文件：进行对于仿真数据集的网络训练和检测
   1. train.py:进行训练
   2. detect.py:进行预测
+- split文件：存放测试集和训练集的数据路径，两个txt
+- label：存放voc格式的label，存放目录与data的目录结构一致
+- yololabel：存放yolo格式的label
 
 ## 几个结果：
 
@@ -20,3 +23,10 @@
 
 ## 数据集的下载：
 
+	链接：https://pan.baidu.com/s/1CEdL9EJ8DNgED48EVWB5yQ   提取码：ww6j
+​	将data文件放在主目录下，包含6张carla地图的拍摄数据
+
+## 运行流程：
+
+- 运行autolabel.py生成分割后的测试集和训练集以及yolo、voc格式的标签
+- 使用yolov5进行训练和检测
