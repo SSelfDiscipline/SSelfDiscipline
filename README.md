@@ -26,7 +26,7 @@
 	链接：https://pan.baidu.com/s/1CEdL9EJ8DNgED48EVWB5yQ   提取码：ww6j
 ​	将data文件放在主目录下，直接全部覆盖。包含6张carla地图的拍摄数据，包括Town01——Town05和Town10，每个地图文件下包含了rgb0,seg0和visseg0三个文件夹,rgb0存储rgb图片，seg0存储Carla原语义分割图,visseg0存储Carla可视化语义分割图。关于语义分割图中的信息可参考网页:[Sensors reference - CARLA Simulator](https://carla.readthedocs.io/en/latest/ref_sensors/#semantic-segmentation-camera)。0代表相机组的组号，本系统支持多组相机共同拍摄，并且会为各自创建单独的文件夹，如rgb1，rgb2等，取决于传感器组的数量。
 
-​	当主目录中的data每个地图只存放了一张rgb图片和与之对应的seg和visseg图片。
+​	当主目录中的data每个地图只存放了一张rgb图片和与之对应的seg和visseg图片，label以及yololabel都是对这几张图片使用autolabel脚本得到的标签。
 
 ​	在DataGenerate文件夹中，可以使用main脚本进行仿真数据的采集从而可以训练自己设定的仿真数据集。
 
@@ -38,3 +38,5 @@
 - 运行autolabel.py对每一张图片进行自动标注，并将有目标的图片路径划分为训练集和测试集，两个txt文件保存至split文件中，并将标注的标签分别保存为voc格式（label文件夹下），和yolo格式（yololabel文件夹下），其中voc标签的目录形式与data一致，而yolo格式的标签顺序与split中txt中的图片路径顺序一致。
 - 使用yolov5进行训练和检测，该系统使用的是yolo格式标签，如果使用voc格式标签，可以自行修改代码。
 - 在yolov5master文件夹下，best.pt为本系统最终的训练参数，yolov5s.pt为本系统的预训练权重。
+
+![842](./842.jpg)

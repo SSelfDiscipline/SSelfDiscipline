@@ -444,18 +444,18 @@ def Abspath(txt_path):
 if __name__ == '__main__':
     
     # Watch(data_dir)
-    path = './data/Town10/rgb0/842.jpg'   
-    seg_path = path.replace('rgb0','seg0')
+    # path = './data/Town10/rgb0/842.jpg'   
+    # seg_path = path.replace('rgb0','seg0')
     # vis = path.replace('rgb0','visseg0')
     # image = cv2.imread(path)
     # cv2.imshow('image',image)
     # # cv2.waitKey(0)
-    DrawCounts(path,seg_path)
-    # rgb_list, seg_list,visseg_list = load_image_dir(data_dir)
+    # DrawCounts(path,seg_path)
+    rgb_list, seg_list,visseg_list = load_image_dir(data_dir)
     # # 删除无目标的图像
     # CheckObjects(rgb_list,seg_list,visseg_list)
-    # Process(rgb_list)
-    # ConvertYolo()
+    Process(rgb_list)
+    ConvertYolo()
     # Abspath('./split/train.txt')
     # Abspath('./split/test.txt')
     # pass
